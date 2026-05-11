@@ -54,7 +54,7 @@ import dockerlogo from './assets/tech_logo/docker.png';
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
 import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+// import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 // import EpiqLogo from './assets/company_logo/Epiq_logo.png';
 
 // Education Section Logo's
@@ -170,37 +170,21 @@ export const SkillsInfo = [
     {
       id: 1,
       img: agcLogo,
-      role: "Operation Data Analyst",
-      company: "Epiq Global",
-      date: "January 2025 - September 2025",
-      desc: "Worked on designing and optimizing ETL pipelines using Azure Data Factory and Synapse Analytics. Handled structured data transformations with SQL and Python, and supported scalable processing via Azure Databricks.",
+      role: "Assistant Data Engineer",
+      company: "Lince Soft Solutions",
+      date: "May 2023 - Present",
+      desc: "Worked on designing and developing scalable ETL pipelines, integrating data from multiple sources, and processing large-scale datasets using Azure, Microsoft Fabric, and PySpark. Focused on building reliable, high-performance data workflows and optimizing data processing for analytics and business insights.",
       skills: [
+        "SQL",
         "PySpark",
-        "Data Factory",
-        "Azure Synapse",
+        "Fabric",
+        "Azure",
         "Databricks",
-        "Relativity",
-        "Nuix",
+        "Azure Synapse",
+        "Data Factory",
         "Git Action",
-        "MySQL",
       ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "June 2024 - November 2024",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
+    }
   ];
   
   export const education = [
@@ -303,34 +287,34 @@ export const SkillsInfo = [
     //   github: "https://github.com/codingmastr/Webverse-Digital",
     //   webapp: "https://webversedigital.com/",
     // },
-    // {
-    //   id: 6,
-    //   title: "Coding Master",
-    //   description:
-    //     "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-    //   image: cmLogo,
-    //   tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-    //   github: "https://codingmasterweb.in/",
-    //   webapp: "https://codingmasterweb.in/",
-    // },
+    {
+      id: 6,
+      title: "Fabric End-To-End Pipeline : Retail KPI Analytics Platform",
+      description:
+        "Built a Retail Sales Insights Platform using Microsoft Fabric Lakehouse architecture to ingest, process, and transform sales and inventory data from external APIs (JSON). Implemented Medallion architecture (Bronze, Silver, Gold layers) using PySpark to deliver clean, analytics-ready datasets for KPI reporting and business insights.",
+      image: imagesearchLogo,
+      tags: ["Microsoft Fabric", "PySpark", "Spark SQL", "GitHub"],
+      github: "https://github.com/SagarMahure/Fabric-End-To-End-Pipeline-Retail-KPI-Analytics-Platform",
+      webapp: "https://imagsearch.netlify.app/",
+    },
     {
       id: 7,
-      title: "Image Search App",
+      title: "Uber Azure Databricks Streaming Project",
       description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
+        "Built a real-time streaming data pipeline using Azure Event Hub and Azure Databricks (Spark Structured Streaming) to process high-volume event data from web applications and GitHub sources. Transformed and processed streaming data into a unified data stream, and implemented a star schema model for efficient analytics and reporting. Optimized pipeline performance for low-latency processing and scalability, enabling real-time insights and data-driven decision-making.",
+      image: webverLogo,
+      tags: ["Microsoft Fabric", "PySpark", "Spark SQL", "GitHub"],
+      github: "https://github.com/SagarMahure/Uber-Azure-Databricks-Streaming-Project",
       webapp: "https://imagsearch.netlify.app/",
     },
     {
       id: 8,
-      title: "Image Background Remover",
+      title: "Spotify End-To-End Azure Data Engineering Project",
       description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
+        "Designed and implemented an end-to-end data engineering pipeline using Azure services to analyze Spotify data. Ingested data from the Spotify API using Azure Data Factory, stored it in Azure Data Lake, and performed data transformation using Azure Databricks (PySpark). Implemented Medallion architecture (Bronze, Silver, Gold layers) to process raw data into structured, analytics-ready datasets. Optimized data workflows for performance and scalability, enabling efficient reporting and data-driven insights.",
       image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
+      tags: ["Azure Data Factory", "Databricks", "Azure SQL DB", "Logic Apps", "Medallion Architecture", "ADLS Gen2", "CI/CD Pipeline"],
+      github: "https://github.com/SagarMahure/Spotify-End-To-End-Azure-Data-Engineering-Project",
       webapp: "https://removeyourbg.netlify.app/",
     },
   ];  

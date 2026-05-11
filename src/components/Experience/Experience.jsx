@@ -18,9 +18,9 @@ const Experience = () => {
       </div>
 
       {/* Experience Timeline */}
-      <div className="relative">
+      <div className="flex flex-col items-center">
         {/* Vertical line */}
-        <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full"></div>
+        {/* <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full"></div> */}
 
         {/* Experience Entries */}
         {experiences.map((experience, index) => (
@@ -31,13 +31,13 @@ const Experience = () => {
             }`}
           >
             {/* Timeline Circle */}
-            <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
+            {/* <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
               <img
                 src={experience.img}
                 alt={experience.company}
                 className="w-full h-full object-cover rounded-full"
               />
-            </div>
+            </div> */}
 
             {/* Content Section */}
             <div
