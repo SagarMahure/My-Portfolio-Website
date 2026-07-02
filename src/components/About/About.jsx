@@ -40,7 +40,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a Data Engineer with 3+ year of experience in building and optimizing scalable ETL pipelines and data workflows.
+            I am a Data Engineer with 3.2+ year of experience in building and optimizing scalable ETL pipelines and data workflows.
             Proficient in Azure Data Factory, Synapse Analytics, Databricks, Microsoft Fabric, Snowflake, and Agentic AI, with a strong focus on developing 
             cloud-native data solutions that drive business insights, improve performance, and ensure data reliability.
 
@@ -48,7 +48,7 @@ const About = () => {
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1WQrlCXmihNcjk4djKWLr4ZHxm0GrFIAw/view?usp=sharing"
+            href="https://drive.google.com/file/d/1WRTCc-5x3HvrwTJ7EWbtNg1Xsw9Jsr9G/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"

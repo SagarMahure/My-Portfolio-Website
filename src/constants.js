@@ -85,7 +85,7 @@ export const SkillsInfo = [
       { name: 'Data Factory', logo: Factorylogo },
       { name: 'Azure Synapse', logo: Synapselogo },
       { name: 'Databricks', logo: Databrickslogo },
-      { name: 'Apache Airflow', logo: Airflowlogo },
+      // { name: 'Apache Airflow', logo: Airflowlogo },
       { name: 'Snowflake', logo: Snowflakelogo },
       { name: 'Microsoft Fabric', logo: Fabriclogo },
       { name: 'Apache Hadoop', logo: hadooplogo },
@@ -289,32 +289,32 @@ export const SkillsInfo = [
     // },
     {
       id: 6,
-      title: "Fabric End-To-End Pipeline : Retail KPI Analytics Platform",
+      title: "Retail KPI Analytics Platform (Fabric End-To-End Pipeline)",
       description:
         "Built a Retail Sales Insights Platform using Microsoft Fabric Lakehouse architecture to ingest, process, and transform sales and inventory data from external APIs (JSON). Implemented Medallion architecture (Bronze, Silver, Gold layers) using PySpark to deliver clean, analytics-ready datasets for KPI reporting and business insights.",
       image: imagesearchLogo,
       tags: ["Microsoft Fabric", "PySpark", "Spark SQL", "GitHub"],
-      github: "https://github.com/SagarMahure/Fabric-End-To-End-Pipeline-Retail-KPI-Analytics-Platform",
+      github: "https://github.com/SagarMahure/Retail-KPI-Analytics-Platform-Fabric-End-To-End-Pipeline",
       webapp: "https://imagsearch.netlify.app/",
     },
     {
       id: 7,
-      title: "Uber Azure Databricks Streaming Project",
+      title: "Enterprise Data Migration Project (Databricks End-To-End Pipeline)",
       description:
         "Built a real-time streaming data pipeline using Azure Event Hub and Azure Databricks (Spark Structured Streaming) to process high-volume event data from web applications and GitHub sources. Transformed and processed streaming data into a unified data stream, and implemented a star schema model for efficient analytics and reporting. Optimized pipeline performance for low-latency processing and scalability, enabling real-time insights and data-driven decision-making.",
       image: webverLogo,
       tags: ["Microsoft Fabric", "PySpark", "Spark SQL", "GitHub"],
-      github: "https://github.com/SagarMahure/Uber-Azure-Databricks-Streaming-Project",
+      github: "https://github.com/SagarMahure/Enterprise-Data-Migration-Project-Databricks-End-To-End-Pipeline",
       webapp: "https://imagsearch.netlify.app/",
     },
-    {
-      id: 8,
-      title: "Spotify End-To-End Azure Data Engineering Project",
-      description:
-        "Designed and implemented an end-to-end data engineering pipeline using Azure services to analyze Spotify data. Ingested data from the Spotify API using Azure Data Factory, stored it in Azure Data Lake, and performed data transformation using Azure Databricks (PySpark). Implemented Medallion architecture (Bronze, Silver, Gold layers) to process raw data into structured, analytics-ready datasets. Optimized data workflows for performance and scalability, enabling efficient reporting and data-driven insights.",
-      image: removebgLogo,
-      tags: ["Azure Data Factory", "Databricks", "Azure SQL DB", "Logic Apps", "Medallion Architecture", "ADLS Gen2", "CI/CD Pipeline"],
-      github: "https://github.com/SagarMahure/Spotify-End-To-End-Azure-Data-Engineering-Project",
-      webapp: "https://removeyourbg.netlify.app/",
-    },
+    // {
+    //   id: 8,
+    //   title: "Spotify End-To-End Azure Data Engineering Project",
+    //   description:
+    //     "Designed and implemented an end-to-end data engineering pipeline using Azure services to analyze Spotify data. Ingested data from the Spotify API using Azure Data Factory, stored it in Azure Data Lake, and performed data transformation using Azure Databricks (PySpark). Implemented Medallion architecture (Bronze, Silver, Gold layers) to process raw data into structured, analytics-ready datasets. Optimized data workflows for performance and scalability, enabling efficient reporting and data-driven insights.",
+    //   image: removebgLogo,
+    //   tags: ["Azure Data Factory", "Databricks", "Azure SQL DB", "Logic Apps", "Medallion Architecture", "ADLS Gen2", "CI/CD Pipeline"],
+    //   github: "https://github.com/SagarMahure/Spotify-End-To-End-Azure-Data-Engineering-Project",
+    //   webapp: "https://removeyourbg.netlify.app/",
+    // },
   ];  
